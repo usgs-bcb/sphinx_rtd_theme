@@ -78,14 +78,6 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
 
-    <!-- Google Tag Manager -->
-    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TKQR8KP');</script> -->
-    <!-- End Google Tag Manager -->
-
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,20 +90,6 @@
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search">
           {% block sidebartitle %}
-
-          <header id="navbar" class="header-nav"  role="banner">
-          <div class="tmp-container">
-              <!-- primary navigation bar -->
-                <!-- search bar-->
-              <div class="header-search">
-               <a class="logo-header" href="https://www.usgs.gov/" title="Home">
-                  <img class="img"  src="https://www.usgs.gov/sites/all/themes/usgs_palladium/logo.png"  alt="Home" />
-                </a>
-              </div>
-              <!-- end search bar-->
-            </div>
-            <!-- end header-container-->
-        </header>
 
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
