@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """`sphinx_rtd_theme` lives on `Github`_.
 
-.. _github: https://github.com/rtfd/sphinx_rtd_theme
+.. _github: https://github.com/usgs-bcb/sphinx_rtd_theme
 
 """
 from io import open
@@ -10,13 +10,13 @@ from sphinx_rtd_theme import __version__
 
 
 setup(
-    name='sphinx_rtd_theme',
+    name='sphinx_rtd_theme_usgs',
     version=__version__,
-    url='https://github.com/rtfd/sphinx_rtd_theme/',
+    url='https://github.com/usgs-bcb/sphinx_rtd_theme/',
     license='MIT',
-    author='Dave Snider, Read the Docs, Inc. & contributors',
+    author='(original) Dave Snider, Read the Docs, Inc. & contributors',
     author_email='dev@readthedocs.org',
-    description='Read the Docs theme for Sphinx',
+    description='Read the Docs theme for Sphinx - adapted for USGS visual identity',
     long_description=open('README.rst', encoding='utf-8').read(),
     zip_safe=False,
     packages=['sphinx_rtd_theme'],
