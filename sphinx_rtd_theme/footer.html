@@ -14,14 +14,6 @@
 
   <div role="contentinfo">
     <p>
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-
     {%- if build_id and build_url %}
       {% trans build_url=build_url, build_id=build_id %}
         <span class="build">
